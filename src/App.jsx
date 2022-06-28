@@ -92,8 +92,7 @@ export default function App() {
 
 
       let allWaves  = await  wavePortalContract.getAllWaves();
-        // console.log(allWaves);
-
+       
 
           let wavesCleaned = [];
         allWaves.forEach(wave => {
